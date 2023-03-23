@@ -51,7 +51,12 @@ struct ArtworkTab: View {
                         WebImage(url: URL(string: album.thumbnailUrl))
                             .resizable()
                             .aspectRatio(1 ,contentMode: .fit)
-                            .background(Color.blue)
+                            .background(
+                                ZStack {
+                                    Color.gray
+                                    Image(systemName: "clock")
+                                }
+                            )
                             .onAppear {
                                 viewModel.loadMoreIfNeeded(currentItem: album)
                             }

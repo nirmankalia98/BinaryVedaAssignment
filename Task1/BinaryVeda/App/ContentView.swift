@@ -28,11 +28,6 @@ struct ContentView: View {
             // we can add a @ViewBuilder here to show multiple sheets for multiple actions
             Text("\(appState.selecteToolBarItem?.rawValue ?? "")")
         }
-        .onAppear{
-            let path = Bundle(for: AppEnvironment.self).url(forResource: "Barlow-ExtraLight", withExtension: "tff")
-            debugPrint(path)
-        }
-
     }
 }
 

@@ -68,51 +68,6 @@ struct DashboardStats: View {
     }
 }
 
-enum SocialMediaIteraction {
-    case like
-    case view
-    case share
-    
-    var asset: String {
-        switch self {
-        case .like:
-            return "heart"
-        case .view:
-            return "click"
-        case .share:
-            return  "share"
-        }
-    }
-}
-
-struct DashboardStatsItem: View {
-    var data: String
-    var type: String
-    var body: some View {
-        VStack(spacing: 0){
-            Text(data)
-                .typography(.title)
-//                .background(Co,lor.yellow)
-            Text(type)
-                .typography(.label)
-        }
-    }
-}
-
-struct DashboardSocialItem: View {
-    var type: SocialMediaIteraction
-    var text: String
-    var body: some View {
-        HStack {
-            Image(type.asset)
-                .resizable()
-                .frame(width: 16, height: 16)
-            Text(text)
-                .typography(.info)
-        }
-    }
-}
-
 struct DashboardStats_Previews: PreviewProvider {
     static var previews: some View {
         DashboardStats(userProfile: .mockUser)

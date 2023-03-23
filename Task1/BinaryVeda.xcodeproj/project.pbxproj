@@ -14,6 +14,10 @@
 		DC1EDEEA29CC33E900D70971 /* DashboardToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1EDEE929CC33E900D70971 /* DashboardToggle.swift */; };
 		DC1EDEED29CC3BC600D70971 /* ArtworkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1EDEEC29CC3BC600D70971 /* ArtworkItem.swift */; };
 		DC1EDEF029CC3D1B00D70971 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1EDEEF29CC3D1B00D70971 /* AppState.swift */; };
+		DC1EDEFD29CC44F700D70971 /* DashboardStatsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1EDEF929CC44F700D70971 /* DashboardStatsItem.swift */; };
+		DC1EDEFE29CC44F700D70971 /* DashboardActionItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1EDEFA29CC44F700D70971 /* DashboardActionItems.swift */; };
+		DC1EDEFF29CC44F700D70971 /* DashboardSocialMediaItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1EDEFB29CC44F700D70971 /* DashboardSocialMediaItem.swift */; };
+		DC1EDF0029CC44F700D70971 /* PalleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1EDEFC29CC44F700D70971 /* PalleteView.swift */; };
 		DC2D250B29CADB50007DCF10 /* UserProfileDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2D250A29CADB50007DCF10 /* UserProfileDataService.swift */; };
 		DC2D250D29CAEB2A007DCF10 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2D250C29CAEB2A007DCF10 /* DashboardViewModel.swift */; };
 		DC2D250F29CAEB49007DCF10 /* ArtworkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2D250E29CAEB49007DCF10 /* ArtworkViewModel.swift */; };
@@ -73,6 +77,10 @@
 		DC1EDEE929CC33E900D70971 /* DashboardToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardToggle.swift; sourceTree = "<group>"; };
 		DC1EDEEC29CC3BC600D70971 /* ArtworkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkItem.swift; sourceTree = "<group>"; };
 		DC1EDEEF29CC3D1B00D70971 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		DC1EDEF929CC44F700D70971 /* DashboardStatsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardStatsItem.swift; sourceTree = "<group>"; };
+		DC1EDEFA29CC44F700D70971 /* DashboardActionItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardActionItems.swift; sourceTree = "<group>"; };
+		DC1EDEFB29CC44F700D70971 /* DashboardSocialMediaItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardSocialMediaItem.swift; sourceTree = "<group>"; };
+		DC1EDEFC29CC44F700D70971 /* PalleteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PalleteView.swift; sourceTree = "<group>"; };
 		DC2D250A29CADB50007DCF10 /* UserProfileDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileDataService.swift; sourceTree = "<group>"; };
 		DC2D250C29CAEB2A007DCF10 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
 		DC2D250E29CAEB49007DCF10 /* ArtworkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtworkViewModel.swift; sourceTree = "<group>"; };
@@ -150,6 +158,10 @@
 		DC1EDEE829CC33BF00D70971 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				DC1EDEFA29CC44F700D70971 /* DashboardActionItems.swift */,
+				DC1EDEFB29CC44F700D70971 /* DashboardSocialMediaItem.swift */,
+				DC1EDEF929CC44F700D70971 /* DashboardStatsItem.swift */,
+				DC1EDEFC29CC44F700D70971 /* PalleteView.swift */,
 				DC1EDEE929CC33E900D70971 /* DashboardToggle.swift */,
 			);
 			path = Components;
@@ -519,6 +531,7 @@
 				DCA237D829CA26B900166EB4 /* ContentView.swift in Sources */,
 				DC2D251429CB0C09007DCF10 /* MockDataServices.swift in Sources */,
 				DCA2380C29CA298B00166EB4 /* CGFloat+Extensions.swift in Sources */,
+				DC1EDEFE29CC44F700D70971 /* DashboardActionItems.swift in Sources */,
 				DC4C850229CAD2020085B15C /* UserProfileEntity.swift in Sources */,
 				DC2D250F29CAEB49007DCF10 /* ArtworkViewModel.swift in Sources */,
 				DCA237D629CA26B900166EB4 /* BinaryVedaApp.swift in Sources */,
@@ -526,6 +539,7 @@
 				DC2D255329CB9C2F007DCF10 /* View+Extension.swift in Sources */,
 				DC2D251B29CB4650007DCF10 /* Color+Extension.swift in Sources */,
 				DC2D251129CAFBE2007DCF10 /* ProfileViewModel.swift in Sources */,
+				DC1EDEFF29CC44F700D70971 /* DashboardSocialMediaItem.swift in Sources */,
 				DC2D255D29CC1812007DCF10 /* Font+Extension.swift in Sources */,
 				DCA2381729CA306F00166EB4 /* DashboardProfileSection.swift in Sources */,
 				DCA2381C29CA359F00166EB4 /* Dashboard.swift in Sources */,
@@ -541,10 +555,12 @@
 				DCA2381E29CA38AA00166EB4 /* ArtworkTab.swift in Sources */,
 				DC4C850429CAD3A70085B15C /* ArtworkDataService.swift in Sources */,
 				DC4C84FE29CAC1B70085B15C /* APIManager.swift in Sources */,
+				DC1EDEFD29CC44F700D70971 /* DashboardStatsItem.swift in Sources */,
 				DC1EDEF029CC3D1B00D70971 /* AppState.swift in Sources */,
 				DC1EDEED29CC3BC600D70971 /* ArtworkItem.swift in Sources */,
 				DC4C84FC29CABD330085B15C /* AlbumEntity.swift in Sources */,
 				DCA2381129CA2E8700166EB4 /* NavigationBar.swift in Sources */,
+				DC1EDF0029CC44F700D70971 /* PalleteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

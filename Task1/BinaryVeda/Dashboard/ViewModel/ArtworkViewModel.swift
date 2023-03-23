@@ -47,7 +47,6 @@ class ArtworkViewModel: ObservableObject {
             self.isLoading = true
         }
         self.pageNumber += 1
-        debugPrint("fetching for... \(pageNumber)")
         let query = getQuery()
         self.artowrkDataService.fetch(query: query)
             .receive(on: DispatchQueue.main)
